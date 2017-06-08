@@ -11,6 +11,7 @@ public class Main {
         System.out.print("What's your name? ");
         String Name = userInputScanner.nextLine();
         System.out.println("Hello " + Name + "!");
+        //DONE
        */
 
 
@@ -18,7 +19,7 @@ public class Main {
        /*
         for (int i = args.length - 1; i >= 0; i--) {
             System.out.println(args[i]);
-
+         //DONE
         }
        */
 
@@ -32,7 +33,7 @@ public class Main {
             b1+= " "+args[i];
         }
         System.out.print("\n" + b1);
-
+         //DONE
         */
         // System.out.print("You enter next numbers: ");
 
@@ -45,6 +46,7 @@ public class Main {
         if (s.equals(Name)) {
             System.out.print("The password is equal to the entered string");
         } else System.out.print("The password is not equal to the entered string");
+        //DONE
         */
 
         //5. Ввести целые числа как аргументы командной строки, подсчитать их суммы (произведения) и вывести результат на консоль.
@@ -55,6 +57,7 @@ public class Main {
         Integer numb2 = Scan.nextInt();
         System.out.println("sum = " +(numb1+numb2));
         System.out.print("multiplication = " +(numb1*numb2));
+        // сделать для любого количества чисел
         */
 
         //6.Ввести с консоли n целых чисел. На консоль вывести:
@@ -183,6 +186,7 @@ public class Main {
         }
         System.out.print("\n" + even + " \n" + odd);
         }*/
+        //DONE
 
 
 }
